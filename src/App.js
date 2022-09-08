@@ -9,6 +9,7 @@ import fourth from "assets/tiles/fourth.png";
 import Search from "assets/cards/Search";
 import Select from "assets/cards/Select";
 import StandOut from "assets/cards/StandOut";
+import OverlappingContent from "./components/overlappingContent";
 
 function App() {
   const cardsData = [
@@ -61,6 +62,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <OverlappingContent />
       <Cards data={cardsData} />
       <Tiles data={tilesData} />
       <Footer />
