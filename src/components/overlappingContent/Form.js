@@ -5,7 +5,7 @@ import cross from "assets/cross.svg";
 const Form = () => {
   return (
     <form className={styles.formContainer}>
-      <label for="word" className={styles.label}>
+      <label htmlFor="word" className={styles.label}>
         Word for your slogan
       </label>
       <div className={styles.inputContainer}>

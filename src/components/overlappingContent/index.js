@@ -2,8 +2,11 @@ import styles from "./styles.module.css";
 import { Form } from "./Form.js";
 import { DisplayData } from "./DisplayData";
 import arrow from "assets/rightArrow.svg";
+import React from "react";
 
 const OverlappingContent = () => {
+  let key = 0;
+  const getKey = () => key++;
   const data = [
     "There is no Sore it will Not Heal, No cool it will not Subdue.",
     "coziness building for tomorrow",
@@ -46,15 +49,15 @@ const OverlappingContent = () => {
             {[1, 2, 3, 21].map((number, index) => {
               if (index < 3)
                 return (
-                  <div className={styles.pageNumber} key={index}>
+                  <div className={styles.pageNumber} key={getKey()}>
                     {number}
                   </div>
                 );
               return (
-                <>
+                <React.Fragment key={getKey()}>
                   <div className={styles.pageNumber}>...</div>
                   <div className={styles.pageNumber}>{number}</div>
-                </>
+                </React.Fragment>
               );
             })}
           </div>
