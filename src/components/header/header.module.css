@@ -1,0 +1,48 @@
+@import '../../vars.css';
+@import '../../index.css';
+
+.container{
+  background: var(--blue);
+  height: 328px;
+  padding: 24px 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 44px;
+  width: 156px;
+  object-fit: contain;
+}
+
+.buttonsContainer {
+  display: flex;
+  column-gap: 32px;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.signIn{
+  background: transparent;
+  border: none;
+  color:white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  border: none;
+}
+
+.forPC{
+  background: white;
+  cursor: pointer;
+  color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 12px 24px;
+}

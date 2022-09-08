@@ -1,0 +1,55 @@
+@import '../../vars.css';
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 32px;
+  padding: 16px 160px;
+  align-items: flex-start;
+}
+
+.unitCard {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.subHeading {
+  font-family: 'regular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--black-light);
+}
+
+.heading {
+  font-family: 'medium';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--black);
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 36px;
+}

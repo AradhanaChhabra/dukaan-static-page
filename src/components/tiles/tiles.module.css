@@ -1,0 +1,45 @@
+@import '../../vars.css';
+
+.tilesWrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+  padding: 80px 160px;
+}
+
+.tiles {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.heading {
+  font-family: 'semibold';
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: -0.04em;
+	color: var(--black);
+}
+
+.contentWrapper {
+	width: 352px;
+}
+
+.subHeading {
+  font-family: 'medium';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--black);
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.content {
+  font-family: 'regular';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--black-light);
+}
