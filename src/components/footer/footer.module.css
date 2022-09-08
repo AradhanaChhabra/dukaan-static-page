@@ -1,0 +1,73 @@
+@import '../../vars.css';
+
+.footer {
+  font-family: 'regular';
+	width: 100%;
+	height: 283px;
+	background-color: var(--black);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+  padding: 64px 160px 24px 160px; 
+}
+
+.table {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.table > div {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--white);
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.table > div> div {
+	font-family: 'regular';
+}
+
+.table > div > div:nth-child(2) {
+	display: flex;
+	gap: 5px;
+  align-content: center;
+  align-items: center;
+	width: 100%;
+}
+
+.table > div > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+	background-color:var(--white);
+  color: var(--black);
+	height:24px;
+  width:24px;
+	border-radius: 50%;
+}
+
+.divider {
+	margin-top: 20px;
+	width: 100%;
+	height: 1px;
+  opacity: 0.2;
+	background-color: var(--white);
+}
+
+.bottomContent {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--white);
+	font-size: 14px;
+	line-height: 20px;
+}

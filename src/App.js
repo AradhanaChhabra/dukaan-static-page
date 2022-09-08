@@ -1,6 +1,7 @@
-import { Header } from "components/header";
-import { Cards } from "components/cards";
+import Header from "components/header";
+import Cards from "components/cards";
 import Tiles from "components/tiles";
+import Footer from "components/footer";
 import first from "assets/tiles/first.png";
 import second from "assets/tiles/second.png";
 import third from "assets/tiles/third.png";
@@ -62,6 +63,7 @@ function App() {
       <Header />
       <Cards data={cardsData} />
       <Tiles data={tilesData} />
+      <Footer />
     </div>
   );
 }
