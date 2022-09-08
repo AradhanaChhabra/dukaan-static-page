@@ -4,32 +4,34 @@ import indFlag from "assets/india.svg";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.table}>
-        <img src={logo} alt="logo"></img>
-        <div>
-          <div>Contact</div>
-          <div>FAQ`s</div>
-        </div>
-        <div>
-          <div>Tutorials</div>
-          <div>Blog</div>
-        </div>
-        <div>
-          <div>Privacy</div>
-          <div>Banned Items</div>
-        </div>
-        <div>
-          <div>About</div>
+        <img src={logo} alt="logo" className={styles.logo}></img>
+        <div className={styles.footerContent}>
           <div>
-            <div>Jobs</div>
-            <div>3</div>
+            <div>Contact</div>
+            <div>FAQ's</div>
           </div>
-        </div>
-        <div>
-          <div>Facebook</div>
-          <div>Twitter</div>
-          <div>Linkedin</div>
+          <div>
+            <div>Tutorials</div>
+            <div>Blog</div>
+          </div>
+          <div>
+            <div>Privacy</div>
+            <div>Banned Items</div>
+          </div>
+          <div>
+            <div>About</div>
+            <div>
+              <div>Jobs</div>
+              <div>3</div>
+            </div>
+          </div>
+          <div>
+            <div>Facebook</div>
+            <div>Twitter</div>
+            <div>Linkedin</div>
+          </div>
         </div>
       </div>
       <div className={styles.divider}></div>
@@ -40,7 +42,7 @@ function Footer() {
           <img src={indFlag} alt="flag" />
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 
